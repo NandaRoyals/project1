@@ -1,15 +1,4 @@
- Volume in drive C has no label.
- Volume Serial Number is 6CAB-B8E4
+HELLO MATTA GAIFHAISFIUAHGFU
 
- Directory of C:\Users\NANDA\Desktop\SampleProject\project1
 
-10-06-2019  12:46    <DIR>          .
-10-06-2019  12:46    <DIR>          ..
-18-05-2019  18:27             1,500 aboutus.html
-19-05-2019  11:59               855 contactus.html
-18-05-2019  12:27               550 home.html
-07-05-2019  11:07        17,925,633 kishore.png
-10-06-2019  12:46                 0 nanda.txt
-18-05-2019  12:05               750 page1.html
-               6 File(s)     17,929,288 bytes
-               2 Dir(s)  241,779,470,336 bytes free
+hellooooooooooooooo
