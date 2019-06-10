@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+<style>
+  body{
+    background-color: orange;
+  }
+</style>
+
+  <body >
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+          $("#Registration").hide();
+              $("#Login_Form").hide();
+      $("#Login").click(function(){
+        $("#Registration").hide();
+            $("#Login_Form").show();
+      });
+      $("#Register").click(function(){
+            $("#Login_Form").hide()
+        $("#Registration").show();
+        ;
+      });
+    });
+    </script>
+<div align="center">
+<input id="Login" type="button"  value="Login" />
+<input id="Register" type="button"  value="Register" />
+</div>
+<center>
+<div id="Login_Form">
+  <form align="center">
+  UserName:<input type="text" name="" value=""><br>
+  Password:<input type="password" name="" value=""><br>
+            <input type="submit" value="Submit"/>
+</form>
+</div>
+<div id="Registration"><br><br><br>
+    FirstName:<input type="text" name="fname" value=""><br>
+    LastName: <input type="text" name="lname" value=""><br>
+    Password:<input type="password" name="pswd" value=""><br>
+    CPassword:<input type="password" name="cpswd" value=""><br><br>
+      <button type="button" name="button">Submit</button>
+        <button type="button" name="button">Cancel</button>
+  </form>
+</div>
+</center>
+  </body>
+</html>
